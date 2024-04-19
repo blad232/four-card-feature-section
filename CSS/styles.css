@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+
+    /*Colors*/
+
+    /*Primary*/
+
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+
+    /*Neutral*/
+
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--Very-Light-Gray);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+}
+
+.container {
+    padding: 8rem 0;
+    width: 315px;
+}
+
+.header {
+    margin-bottom: 7rem;
+}
+
+.headings {
+    color: var(--Very-Dark-Blue);
+
+}
+
+.paragragh {
+    color: var(--Grayish-Blue);
+
+}
+
+
+.--mod-h2 {
+    font-weight: 400;
+}
+
+.--mod-textAling {
+    text-align: center;
+
+}
+
+.--mod-margin {
+    margin-top: 2rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+
+}
+
+.block {
+    height: 220px;
+    background: var(--White);
+    border-radius: 0.5rem;
+    padding: 3rem 2rem 2rem 3rem;
+    box-shadow: 2px 2px 10px var(--Grayish-Blue);
+
+}
+
+.img {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.--border-cyan {
+    border-top: 0.3rem solid var(--Cyan);
+}
+
+.--border-red {
+    border-top: 0.3rem solid var(--Red);
+
+}
+
+.--border-orange {
+    border-top: 0.3rem solid var(--Orange);
+
+}
+
+.--border-blue {
+    border-top: 0.3rem solid var(--Blue);
+
+}
+
+footer {
+    /* margin-top: auto; */
+}
